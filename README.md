@@ -15,6 +15,7 @@
 ## [Chapter 3](https://github.com/DNA-B/javascript_nodeJSPractice/blob/main/chapter_summary/Chapter3.md)
 - npm script
 - nodemon
+- node --watch
 - .env 파일
 
 <br><br>
