@@ -51,6 +51,19 @@ npm i -D nodemon
 
 <br><br>
 
+# `node --watch`
+```jsx
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    }
+```
+
+- Node.js 18.11.0 버전 이상부터 코드 변경 사항이 있을 시 프로세스를 재시작 해주는 watch 기능이 추가됐다.
+- 따라서 nodemon 대신 스크립트에서 `watch`를 사용하여 자동으로 재시작해주는 기능을 사용할 수 있다.
+
+<br><br>
+
 # `.env` 파일
 
 -   환경변수를 저장해놓을 파일이다. 보통 .env로 작성한다.
